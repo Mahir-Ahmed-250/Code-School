@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "PHP Beginners – Become a PHP Master",
+        "price": 15,
+        "rating": 5,
+        "instructor": "Britney Cooper",
+        "img": "./images/php.jpg",
+        "description": "learn everything you need to become a professional PHP developer with practical exercises & projects. "
+    },
+    {
+        "id": 2,
+        "name": "WordPress Master Class for Beginners",
+        "price": 12,
+        "rating": 4,
+        "instructor": "Bobbie Jacobs ",
+        "img": "./images/wordpress.jpg",
+        "description": "In 2021, build a beautiful responsive Wordpress site that looks great on all devices. No experience required. "
+    },
+    {
+        "id": 3,
+        "name": "The Complete JavaScript Course",
+        "price": 20,
+        "rating": 5,
+        "instructor": "Otis Garner",
+        "img": "./images/js.jpg",
+        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!"
+    },
+    {
+        "id": 4,
+        "name": "ASP.NET Core MVC (.NET 5) ",
+        "price": 25,
+        "rating": 5,
+        "instructor": "Marion Rodriquez",
+        "img": "./images/dot-net.jpg",
+        "description": "Learn to build fast and secure web applications with ASP.NET MVC 5 - The most popular course with 40,000+ students! "
+    }
+]

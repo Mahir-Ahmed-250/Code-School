@@ -1,0 +1,110 @@
+[
+    {
+        "id": 100,
+        "name": "PHP Beginners – Become a PHP Master",
+        "price": 15,
+        "rating": 5,
+        "instructor": "Britney Cooper",
+        "img": "./images/php.jpg",
+        "description": "learn everything you need to become a professional PHP developer with practical exercises & projects. "
+    },
+    {
+        "id": 101,
+        "name": "WordPress Master Class for Beginners",
+        "price": 12,
+        "rating": 4,
+        "instructor": "Bobbie Jacobs ",
+        "img": "./images/wordpress.jpg",
+        "description": "In 2021, build a beautiful responsive Wordpress site that looks great on all devices. No experience required. "
+    },
+    {
+        "id": 102,
+        "name": "The Complete JavaScript Course for Beginners",
+        "price": 20,
+        "rating": 5,
+        "instructor": "Otis Garner",
+        "img": "./images/js.jpg",
+        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!"
+    },
+    {
+        "id": 103,
+        "name": "ASP.NET Core MVC (.NET 5) ",
+        "price": 25,
+        "rating": 5,
+        "instructor": "Marion Rodriquez",
+        "img": "./images/dot-net.jpg",
+        "description": "Learn to build fast and secure web applications with ASP.NET MVC 5 - The most popular course with 40,000+ students! "
+    },
+    {
+        "id": 104,
+        "name": "Ruby for Beginners",
+        "price": 15,
+        "rating": 4,
+        "instructor": "Russell Goodwin",
+        "img": "./images/ruby.jpg",
+        "description": "Code-Along & build an advanced e-learning platform. Biggest, Most complete Ruby on Rails 6 course. Always updated."
+    },
+    {
+        "id": 105,
+        "name": "Python for Everybody",
+        "price": 18,
+        "rating": 4,
+        "instructor": "Marilyn Warren",
+        "img": "./images/python.jpg",
+        "description": "Learn to use Python, Pandas, Matplotlib, and the QuantConnect Lean Engine to perform financial analysis and trading "
+    },
+    {
+        "id": 106,
+        "name": "React Complete Guide",
+        "price": 20,
+        "rating": 5,
+        "instructor": "Glen Vargas",
+        "img": "./images/react.png",
+        "description": "Dive in and learn React.js from scratch! Learn React js, Hooks, Redux, React Routing, Animations, Next.js and way more! "
+    },
+    {
+        "id": 107,
+        "name": "Complete Course for C#",
+        "price": 12,
+        "rating": 5,
+        "instructor": "Jenna Osborne",
+        "img": "./images/csharp.jpg",
+        "description": "Learn Unity in C# & Code Your First Seven 2D Video Games for Web, Mac & PC. The Tutorials Cover Tilemap"
+    },
+    {
+        "id": 108,
+        "name": "Master in Angular",
+        "price": 13,
+        "rating": 3,
+        "instructor": "Andres Turner",
+        "img": "./images/angular.jpg",
+        "description": "Master Angular 12 (formerly Angular 2) and build awesome, reactive web apps with the successor of Angular.js "
+    },
+    {
+        "id": 109,
+        "name": "Programming in C++",
+        "price": 8,
+        "rating": 4,
+        "instructor": "Tyler Hamilton ",
+        "img": "./images/c++.png",
+        "description": "Created in collaboration with Epic Games. Learn C++ from basics while making your first 4 video games in Unreal "
+    },
+    {
+        "id": 110,
+        "name": "Java Programming",
+        "price": 12,
+        "rating": 4,
+        "instructor": "Myrtle Hughes",
+        "img": "./images/java.jpg",
+        "description": "Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification  "
+    },
+    {
+        "id": 111,
+        "name": "Machine Learning A-Z™",
+        "price": 20,
+        "rating": 5,
+        "instructor": "Britney Cooper",
+        "img": "./images/machine.png",
+        "description": "Demystify Machine Learning and build foundational Data Science skills like regression & forecasting, without any code! "
+    }
+]

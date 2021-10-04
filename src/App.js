@@ -1,23 +1,50 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Header from './Component/Header/Header';
+import Home from './Component/Home/Home';
+import OurCourses from './Component/OurCourses/OurCourses';
+import ContactUs from './Component/Contact Us/ContactUs';
+import AboutUs from './Component/About Us/AboutUs';
+import Footer from './Component/Footer/Footer';
+import PageNotFound from './Component/PageNotFound/PageNotFound';
+
+
 
 function App() {
+  useEffect(() => {
+    fetch('Data.JSON')
+      .then(res => res.json())
+      .then(data => console.log(data))
+
+  })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header></Header>
+        <Switch>
+          <Route exact path='/'>
+            <Home></Home>
+          </Route>
+          <Route exact path='/home'>
+            <Home></Home>
+          </Route>
+          <Route exact path='/about'>
+            <AboutUs></AboutUs>
+          </Route>
+          <Route exact path='/courses'>
+            <OurCourses></OurCourses>
+          </Route>
+          <Route exact path='/contact'>
+            <ContactUs></ContactUs>
+          </Route>
+          <Route path='*'>
+            <PageNotFound></PageNotFound>
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }
