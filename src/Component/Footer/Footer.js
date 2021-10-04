@@ -1,9 +1,10 @@
 import React from 'react';
-import './Footer.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faYoutube, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+// Css
+import './Footer.css'
 
-
+// Icons
 const facebook = <FontAwesomeIcon icon={faFacebook} />
 const youtube = <FontAwesomeIcon icon={faYoutube} />
 const linkedln = <FontAwesomeIcon icon={faLinkedin} />
@@ -16,7 +17,6 @@ const Footer = () => {
     return (
         <div className="bg-light">
             <div className='container'>
-
                 <div className='d-flex justify-content-center icon'>
                     <a href="www.facebook.com"><h1 className="icon facebook">{facebook}</h1></a>
                     <a href="https://www.youtube.com/"> <h1 className="icon youtube">{youtube}</h1></a>

@@ -1,8 +1,9 @@
 import React from 'react';
 import { FloatingLabel, Form, Button } from 'react-bootstrap';
+// Images
 import img from './image/contact1.png'
+// Css
 import './ContactUs.css'
-
 
 const ContactUs = () => {
     return (
@@ -29,15 +30,10 @@ const ContactUs = () => {
                     </FloatingLabel>
                     <Button className='submit-btn' variant="primary">Submit</Button>
                 </div>
-
-                <div className='col-4'> <img src={img} alt="" /></div>
+                <div className='col-4'>
+                    <img src={img} alt="" />
+                </div>
             </div>
-
-
-
-
-
-
         </div>
     );
 };

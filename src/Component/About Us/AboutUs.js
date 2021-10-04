@@ -1,6 +1,9 @@
 import React from 'react';
+// Images
 import img from './image/about1.png'
+// Css
 import './AboutUs.css'
+
 const AboutUs = () => {
     return (
         <div>
@@ -22,12 +25,6 @@ const AboutUs = () => {
                         </h5>
                     </div>
                 </div>
-
-
-
-
-
-
             </div>
         </div>
     );

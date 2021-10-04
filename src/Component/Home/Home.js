@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 import { faArrowAltCircleRight, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HomePreview from '../HomePreview/HomePreview';
+// Images
 import img1 from './banner/banner1.jpg'
 import img2 from './banner/banner2.jpg'
 import img3 from './banner/banner3.jpg'
+// Css
 import './Home.css'
 
 
@@ -20,7 +22,8 @@ const Home = () => {
             .then(data => setPreviewCourses(data))
     }, [])
     return (
-        <>
+        <div>
+            {/* Header Carousel */}
             <Carousel className="slide container" variant="dark">
                 <Carousel.Item>
                     <img
@@ -29,7 +32,6 @@ const Home = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -70,7 +72,7 @@ const Home = () => {
                 </div>
             </div>
 
-        </>
+        </div>
     );
 };
 
