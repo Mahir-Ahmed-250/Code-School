@@ -24,9 +24,9 @@ const Header = () => {
                             to="/contact">Contact Us</NavLink>
 
                     </Nav>
-                    <Button className='login-btn' variant="outline-success">
+                    <Button className='login-btn' variant="outline-dark">
                         Login</Button>
-                    <Button variant="outline-success">
+                    <Button variant="outline-dark">
                         Sign Up</Button>
 
                 </Navbar.Collapse>

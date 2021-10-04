@@ -3,9 +3,22 @@
     margin-right: 20px;
     margin-top: 20px; 
 }
+.facebook{
+    color:	#4267B2 ;
+}
+.youtube{
+    color: 	#FF0000;
+}
+.linkedln{
+    color: #0077b5;
+}
+.git{
+    color:  #171515;
+}
 .copyright{
     font-size: 25px; 
     font-weight: bold; 
     color: rgb(81, 79, 90);
     text-align: center;
+    font-family:sans-serif;
 }

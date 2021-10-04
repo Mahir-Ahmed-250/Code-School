@@ -1,14 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { faArrowAltCircleRight, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HomePreview from '../HomePreview/HomePreview';
 import img1 from './banner/banner1.jpg'
 import img2 from './banner/banner2.jpg'
 import img3 from './banner/banner3.jpg'
 import './Home.css'
+
+
 const Home = () => {
+    const arrow = <FontAwesomeIcon icon={faArrowAltCircleRight} />
+    const hat = <FontAwesomeIcon icon={faGraduationCap} />
     const [previewCourses, setPreviewCourses] = useState([]);
     useEffect(() => {
-        fetch('HomePreview.JSON')
+        fetch('Data.JSON')
             .then(res => res.json())
             .then(data => setPreviewCourses(data))
     }, [])
@@ -47,17 +54,20 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
             <div className="container mt-5">
-                <h3 className="course-heading">Our Courses</h3>
+                <h3 className="course-heading">{hat}Our <span className='course-heading-span'>Courses</span></h3>
                 <div className="row">
 
                     {
-                        previewCourses.map(course => <HomePreview key={course.id} course={course}></HomePreview>)
+                        previewCourses.slice(0, 4).map(course => <HomePreview key={course.id} course={course}></HomePreview>)
                     }
-
-
                 </div>
-
-
+                <br />
+                <div className="d-flex justify-content-center">
+                    <Link to='./courses'>
+                        <Button className="w-100 btn-more
+                        ">See More Courses {arrow}</Button>
+                    </Link>
+                </div>
             </div>
 
         </>

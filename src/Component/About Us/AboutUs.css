@@ -1,0 +1,12 @@
+.about-us-heading{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    color: orange
+}
+.about{
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 700;
+}

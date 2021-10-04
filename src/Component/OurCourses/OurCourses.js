@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
-
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const OurCourses = () => {
+    const hat = <FontAwesomeIcon icon={faGraduationCap} />
     const [ourCourses, setOurCourses] = useState([]);
     useEffect(() => {
         fetch('Data.JSON')
@@ -13,7 +15,7 @@ const OurCourses = () => {
     return (
         <div>
             <div className="container mt-3">
-                <h1 className='text-center'>Our Courses</h1>
+                <h3 className="course-heading">{hat}Our <span className='course-heading-span'>Courses</span></h3>
                 <div className="row">
 
                     {

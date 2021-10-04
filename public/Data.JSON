@@ -1,7 +1,7 @@
 [
     {
         "id": 100,
-        "name": "PHP Beginners – Become a PHP Master",
+        "name": "PHP Beginners",
         "price": 15,
         "rating": 5,
         "instructor": "Britney Cooper",
@@ -10,7 +10,7 @@
     },
     {
         "id": 101,
-        "name": "WordPress Master Class for Beginners",
+        "name": "WordPress Master Class",
         "price": 12,
         "rating": 4,
         "instructor": "Bobbie Jacobs ",
@@ -19,7 +19,7 @@
     },
     {
         "id": 102,
-        "name": "The Complete JavaScript Course for Beginners",
+        "name": "JavaScript Course - JS Ninja",
         "price": 20,
         "rating": 5,
         "instructor": "Otis Garner",

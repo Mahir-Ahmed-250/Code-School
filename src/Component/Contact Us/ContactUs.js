@@ -1,7 +1,8 @@
 import React from 'react';
 import { FloatingLabel, Form, Button } from 'react-bootstrap';
-import './ContactUs.css'
 import img from './image/contact1.png'
+import './ContactUs.css'
+
 
 const ContactUs = () => {
     return (
@@ -18,7 +19,6 @@ const ContactUs = () => {
                     >
                         <Form.Control type="email" placeholder="name@example.com" />
                     </FloatingLabel>
-
 
                     <FloatingLabel controlId="floatingTextarea2" label="Share Your Thoughts!">
                         <Form.Control

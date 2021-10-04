@@ -1,4 +1,30 @@
 .card{
-height: 600px;
+height: 650px;
 margin-top: 50px;
+}
+.course-name{
+  font-family:cursive;
+  font-weight: 700;
+  color: blue;
+}
+.course-description{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.course-rating{
+    font-size: 25px;
+    margin-top: 15px;
+    color: orange;
+}
+.course-rating-number{
+  color: black;
+  font-weight: 600;
+}
+.course-instructor{
+    font-size: 22px;
+    font-weight: 700;
+}
+.course-price{
+    font-size: 20px;
+    font-weight: 700;
 }
