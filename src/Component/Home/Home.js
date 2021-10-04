@@ -10,6 +10,7 @@ import img2 from './banner/banner2.jpg'
 import img3 from './banner/banner3.jpg'
 // Css
 import './Home.css'
+import FAQ from '../FAQ/FAQ';
 
 
 const Home = () => {
@@ -58,7 +59,6 @@ const Home = () => {
             <div className="container mt-5">
                 <h3 className="course-heading">{hat}Our <span className='course-heading-span'>Courses</span></h3>
                 <div className="row">
-
                     {
                         previewCourses.slice(0, 4).map(course => <HomePreview key={course.id} course={course}></HomePreview>)
                     }
@@ -69,6 +69,10 @@ const Home = () => {
                         <Button className="w-100 btn-more
                         ">See More Courses {arrow}</Button>
                     </Link>
+                </div>
+                <div>
+                    <br />
+                    <FAQ></FAQ>
                 </div>
             </div>
 

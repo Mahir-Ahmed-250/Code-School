@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
@@ -10,15 +9,8 @@ import AboutUs from './Component/About Us/AboutUs';
 import Footer from './Component/Footer/Footer';
 import PageNotFound from './Component/PageNotFound/PageNotFound';
 
-
-
 function App() {
-  useEffect(() => {
-    fetch('Data.JSON')
-      .then(res => res.json())
-      .then(data => console.log(data))
 
-  })
   return (
     <div className="App">
       <Router>
